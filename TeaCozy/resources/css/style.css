@@ -1,0 +1,111 @@
+/*Tags*/
+
+body {
+  font-family: helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  text-align: center;
+  margin: 0;
+}
+
+a{
+  color: seashell;
+}
+
+nav {
+  text-align: right;
+  flex-grow: 1;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+/*IDs */
+
+#mission {
+  background-image: url("../images/img-mission-background.jpg");
+  height: 700px;
+  padding-top: 70px;
+}
+
+#mission .mission_statement {
+  margin: auto;
+  background-color: black;
+  width: 100%;
+}
+
+#specials{
+  height: 700px;
+  width: 1000px;
+  margin: auto;
+  padding-top: 70px;
+}
+
+#locations {
+  height: 500px;
+  padding-top: 70px;
+  background-image: url("../images/img-locations-background.jpg");
+}
+
+#contact {
+  height: 200px;
+}
+
+/*Classes */
+
+.header {
+  width: 100%;
+  z-index: 1;
+  height: 69px;
+  border-bottom: 1px solid  seashell;
+  position: fixed;
+  background-color: black;
+  align-items: center;
+  justify-content: center;
+}
+
+.header img{
+  height: 50px;
+  padding-left: 10px;
+}
+
+.top_section{
+  opacity: 0.9;
+  padding-top: 69px;
+  width: 1200px;
+  margin: auto;
+}
+
+.special_box img {
+  height: 200px;
+  margin: 10px;
+  display: block;
+}
+.special_box span {
+  font-weight: bold;
+}
+
+.location_box {
+  opacity: 1.0;
+  margin: 5px 20px;
+  padding: 10px;
+  flex-basis: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: black;
+}
+
+.flexbox_container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.footer{
+  padding-left: 20px;
+  text-align: left;
+}
